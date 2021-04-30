@@ -1,7 +1,5 @@
 'use strict';
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
 // BANKIST APP
 
 // Data
@@ -98,7 +96,7 @@ console.log(accounts);
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
-/*
+
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
 console.log(arr.slice(2));
@@ -128,9 +126,7 @@ console.log([...arr, ...arr2]);
 
 // JOIN
 console.log(letters.join(' - '));
- */
 
-/*
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // for (const movement of movements) {
@@ -158,9 +154,7 @@ movements.forEach(function (mov, i, arr) {
 // 1: function(450)
 // 2: function(400)
 // ...
-*/
 
-/*
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
@@ -177,9 +171,7 @@ console.log(currenciesUnique);
 currenciesUnique.forEach(function (value, _, map) {
   console.log(`${value}: ${value}`);
 });
-*/
 
-/*
 const eurToUsd = 1.1;
 
 //const movementsUSD = movements.map(function (mov) {
@@ -202,4 +194,3 @@ const movementsDescriptions = movements.map(
   
 );
 console.log(movementsDescriptions);
-*/
